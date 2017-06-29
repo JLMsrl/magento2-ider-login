@@ -1,0 +1,35 @@
+{
+  "name": "jlmsrl/magento2-ider-login",
+  "description": "IDER Login - Magento Plugin",
+  "type": "magento2-module",
+  "version": "1.1.0",
+  "authors": [
+    {
+      "name": "JLM srl",
+      "email": "plugins@jlm.srl",
+      "homepage": "https://ider.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "your/github/or/git/or/svn/etc/repository/uri"
+    }
+  ],
+  "require": {
+    "jlmsrl/ider-openid-client-php": "1.0.*"
+  },
+  "keywords": [
+    "framework",
+    "ider",
+    "php",
+    "wordpress",
+    "openid"
+  ],
+  "autoload": {
+    "files": [ "registration.php", "vendor/autoload.php" ],
+    "psr-4": {
+      "Jlmsrl\\Iderlogin\\": ""
+    }
+  }
+}

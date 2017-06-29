@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'IderLogin';
+    src: url('../fonts/IderLogin.eot?v=4.7.0');
+    src: url('../fonts/IderLogin.eot?#iefix&v=4.7.0') format('embedded-opentype'),
+         url('../fonts/IderLogin.woff?v=4.7.0') format('woff'),
+         url('../fonts/IderLogin.ttf?v=4.7.0') format('truetype'),
+         url('../fonts/IderLogin.svg?v=4.7.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.admin__menu .item-iderconf.level-O > a:before {
+    content: '\0065' !important;
+    font-family: 'IderLogin';
+    transform: rotate(300deg);
+    -webkit-transform: rotate(300deg);
+    -moz-transform: rotate(300deg);
+    -o-transform: rotate(300deg);
+    -ms-transform: rotate(300deg);
+}

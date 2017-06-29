@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <iderlogin>
+            <local>
+                <login_form_button>1</login_form_button>
+            </local>
+            <advanced>
+                <fields_mapping>
+                    <![CDATA[ider_sub=sub
+firstname=given_name
+lastname=family_name
+# nickname=nickname
+email=email
+dob=birthdate
+telephone=phone_number
+gender=
+company=
+vat_id=
+
+street=address.street_address
+city=address.locality
+country_id=address.region
+region=address.postal_code
+country_id=address.country]]>
+                </fields_mapping>
+            </advanced>
+        </iderlogin>
+    </default>
+</config>
