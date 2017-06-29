@@ -2,7 +2,6 @@
   "name": "jlmsrl/magento2-ider-login",
   "description": "IDER Login - Magento Plugin",
   "type": "magento2-module",
-  "version": "0.5.0",
   "authors": [
     {
       "name": "JLM srl",
